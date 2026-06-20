@@ -1,0 +1,2 @@
+#include <iostream>
+using namespace std; struct Complex{ double r,i;}; Complex add(Complex a, Complex b){ return {a.r+b.r, a.i+b.i}; } int main(){ Complex a,b; cin>>a.r>>a.i>>b.r>>b.i; Complex c=add(a,b); cout<<c.r<<" + "<<c.i<<"i\n"; }
